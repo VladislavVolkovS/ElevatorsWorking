@@ -1,5 +1,3 @@
-
-
 public class Request {
     Passenger passenger;
     Elevator.Direction direction = Elevator.Direction.FREE;

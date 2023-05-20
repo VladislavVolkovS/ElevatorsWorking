@@ -32,7 +32,6 @@ public class WorkSystem implements Runnable {
 
             }
 
-
             try {
                 Thread.sleep(1000);
                 Thread.yield();

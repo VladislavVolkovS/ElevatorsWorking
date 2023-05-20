@@ -1,11 +1,8 @@
-
 public class Passenger {
-
     static int visitorCounter = 0;
 
     int fromFloor = 0;
     int toFloor = 0;
-    Controller controller;
 
     Elevator elevator;
 
@@ -19,7 +16,6 @@ public class Passenger {
         while (toFloor == fromFloor) {
             toFloor = (int) (Math.random() * Main.countFloor);
         }
-
 
         Elevator.Direction direction;
         if (toFloor > fromFloor) {
